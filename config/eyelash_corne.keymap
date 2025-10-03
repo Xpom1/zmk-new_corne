@@ -107,6 +107,8 @@
 &trans  &trans        &trans        &trans  &trans     &trans  &trans            &trans          &photo      &mkp RCLK         &mkp MCLK     &video          &trans             &trans
                                     &trans  &trans     &trans                                    &trans      &trans            &trans
             >;
+
+            label = "Move";
         };
 
         System {
