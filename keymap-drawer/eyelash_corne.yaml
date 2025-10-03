@@ -31,7 +31,7 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - X
+  - {t: X, h: UNDO}
   - {t: C, h: COPY}
   - {t: V, h: PASTE}
   - B
