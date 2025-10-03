@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-right-bold$$
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - {t: V, h: PASTE}
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', s: <}
