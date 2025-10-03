@@ -45,7 +45,7 @@ layers:
   - {t: ']', s: '}'}
   - LGUI
   - SYMBOL
-  - {t: '$$mdi:keyboard-space$$', h: move}
+  - {t: '$$mdi:keyboard-space$$', h: Move}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  move:
+  Move:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
