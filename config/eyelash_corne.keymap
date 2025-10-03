@@ -83,20 +83,20 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&lt 3 ESC             &kp Q  &kp W  &kp E         &kp R          &kp T                             &kp C_VOL_UP                       &kp Y      &kp U          &kp I      &kp O    &kp P     &kp LEFT_BRACKET
-&mt LEFT_CONTROL TAB  &kp A  &kp S  &kp D         &kp F          &kp G                 &kp C_NEXT  &kp K_PLAY_PAUSE   &kp C_PREVIOUS  &kp H      &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT        &kp Z  &kp X  &mt K_COPY C  &mt K_PASTE V  &kp B        &none                &kp C_VOLUME_DOWN                  &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
-                                    &kp LGUI      &mo 1          &lt 2 SPACE                                                          &kp ENTER  &kp BACKSPACE  &kp RALT
+&lt 3 ESC             &kp Q  &kp W  &kp E         &kp R          &kp T                        &none         &kp Y      &kp U          &kp I      &kp O    &kp P     &kp LEFT_BRACKET
+&mt LEFT_CONTROL TAB  &kp A  &kp S  &kp D         &kp F          &kp G                 &none  &none  &none  &kp H      &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT        &kp Z  &kp X  &mt K_COPY C  &mt K_PASTE V  &kp B        &none           &none         &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
+                                    &kp LGUI      &mo 1          &lt 2 SPACE                                &kp ENTER  &kp BACKSPACE  &kp RALT
             >;
         };
 
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &td0      &td0    &td0      &td0      &td0                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &td0      &td0    &none     &none     &td0       &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                          &trans    &trans    &kp SPACE                                                             &kp RET    &trans     &trans
+&trans  &mt EXCL N1  &mt AT N2  &mt HASH N3  &mt DLLR N4  &mt PRCNT N5                    &trans          &mt CARET N6  &mt AMPS N7  &mt ASTRK N8  &mt LPAR N9  &mt RPAR N0  &kp BSPC
+&trans  &td0         &td0       &td0         &td0         &td0                    &trans  &trans  &trans  &kp MINUS     &kp EQUAL    &kp LBKT      &kp RBKT     &kp BSLH     &kp GRAVE
+&trans  &td0         &td0       &none        &none        &td0          &trans            &trans          &kp UNDER     &kp PLUS     &kp LBRC      &kp RBRC     &kp PIPE     &kp TILDE
+                                &trans       &trans       &kp SPACE                                       &kp RET       &trans       &trans
             >;
         };
 
@@ -112,10 +112,10 @@
         System {
             display-name = "System";
             bindings = <
-&trans        &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD                                &mmv MOVE_UP                     &kp F1       &kp F2      &kp F3  &kp F4   &kp F5   &kp F6
-&bt BT_CLR    &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2                    &mkp RCLK        &mkp MB4                       &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F7       &kp F8      &kp F9  &kp F10  &kp F11  &kp F12
-&out OUT_BLE  &out OUT_USB     &trans          &trans                          &sys_reset       &bootloader      &kp C_MUTE                    &mmv MOVE_DOWN                   &bootloader  &sys_reset  &none   &none    &none    &none
-                                               &trans                          &trans           &trans                                                                          &trans       &trans      &trans
+&trans        &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD                        &trans          &kp F1       &kp F2      &kp F3  &kp F4   &kp F5   &kp F6
+&bt BT_CLR    &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2                    &mkp RCLK        &mkp MB4                       &trans  &trans  &trans  &kp F7       &kp F8      &kp F9  &kp F10  &kp F11  &kp F12
+&out OUT_BLE  &out OUT_USB     &trans          &trans                          &sys_reset       &bootloader      &kp C_MUTE            &trans          &bootloader  &sys_reset  &trans  &trans   &trans   &trans
+                                               &trans                          &trans           &trans                                                 &trans       &trans      &trans
             >;
         };
     };
