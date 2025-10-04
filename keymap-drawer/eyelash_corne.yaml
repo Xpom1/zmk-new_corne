@@ -66,8 +66,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&td0'
   - '&td0'
-  - '&td0'
-  - '&td0'
+  - LANGUAGE 1
+  - LANGUAGE 2
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
