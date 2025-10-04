@@ -31,9 +31,9 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - {t: X, h: UNDO}
-  - {t: C, h: COPY}
-  - {t: V, h: PASTE}
+  - {t: X, h: AC UNDO}
+  - {t: C, h: AC COPY}
+  - {t: V, h: AC PASTE}
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
@@ -54,8 +54,8 @@ layers:
   - {t: '1', h: '!', s: '!'}
   - {t: '2', h: '@', s: '@'}
   - {t: '3', h: '#', s: '#'}
-  - {t: '4', h: $, s: $}
-  - {t: '5', h: '%', s: '%'}
+  - {t: KP 4, h: $}
+  - {t: '5', h: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', h: ^, s: ^}
   - {t: '7', h: '&', s: '&'}
@@ -179,14 +179,14 @@ layers:
   - OUT BLE
   - OUT USB
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
