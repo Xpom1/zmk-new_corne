@@ -67,7 +67,7 @@ layers:
   - '&td0'
   - '&td0'
   - '&td0'
-  - GLOBE
+  - Ctl+$$mdi:keyboard-space$$
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
