@@ -31,9 +31,9 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - {t: X, h: AC UNDO}
-  - {t: C, h: AC COPY}
-  - {t: V, h: AC PASTE}
+  - {t: X, h: X}
+  - {t: C, h: C}
+  - {t: V, h: V}
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
@@ -66,8 +66,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&td0'
   - '&td0'
-  - LANGUAGE 1
-  - LANGUAGE 2
+  - '&td0'
+  - GLOBE
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
