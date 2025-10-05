@@ -93,10 +93,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &mt EXCL N1  &mt AT N2  &mt HASH N3  &mt DLLR N4  &mt PRCNT N5                    &trans          &mt CARET N6  &mt AMPS N7  &mt ASTRK N8  &mt LPAR N9  &mt RPAR N0  &kp BSPC
-&trans  &td0         &td0       &td0         &kp GLOBE    &td0                    &trans  &trans  &trans  &kp MINUS     &kp EQUAL    &kp LBKT      &kp RBKT     &kp BSLH     &kp GRAVE
-&trans  &td0         &td0       &none        &none        &td0          &trans            &trans          &kp UNDER     &kp PLUS     &kp LBRC      &kp RBRC     &kp PIPE     &kp TILDE
-                                &trans       &trans       &kp SPACE                                       &kp RET       &trans       &trans
+&trans  &mt EXCL N1  &mt AT N2  &mt HASH N3  &mt DLLR N4    &mt PRCNT N5                    &trans          &mt CARET N6  &mt AMPS N7  &mt ASTRK N8  &mt LPAR N9  &mt RPAR N0  &kp BSPC
+&trans  &td0         &td0       &td0         &kp LC(SPACE)  &td0                    &trans  &trans  &trans  &kp MINUS     &kp EQUAL    &kp LBKT      &kp RBKT     &kp BSLH     &kp GRAVE
+&trans  &td0         &td0       &none        &none          &td0          &trans            &trans          &kp UNDER     &kp PLUS     &kp LBRC      &kp RBRC     &kp PIPE     &kp TILDE
+                                &trans       &trans         &kp SPACE                                       &kp RET       &trans       &trans
             >;
         };
 
