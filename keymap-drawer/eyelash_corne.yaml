@@ -31,9 +31,9 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - {t: X, h: X}
-  - {t: C, h: C}
-  - {t: V, h: V}
+  - X
+  - C
+  - V
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
