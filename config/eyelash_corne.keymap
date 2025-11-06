@@ -86,17 +86,16 @@
 &lt 3 ESC             &kp Q  &kp W  &kp E     &kp R  &kp T                         &kp UP                &kp Y        &kp U          &kp I      &kp O    &kp P     &kp LEFT_BRACKET
 &mt LEFT_CONTROL TAB  &kp A  &kp S  &kp D     &kp F  &kp G               &kp LEFT  &kp SPACE  &kp RIGHT  &kp H        &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT        &kp Z  &kp X  &kp C     &kp V  &kp B      &none              &kp DOWN              &kp N        &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_BRACKET
-                                    &kp LGUI  &mo 1  &kp SPACE                                           &lt 2 ENTER  &kp BACKSPACE  &kp RALT
+                                    &kp LGUI  &mo 4  &kp SPACE                                           &lt 2 ENTER  &kp BACKSPACE  &kp RALT
             >;
         };
 
         Symbol_Layer {
-            display-name = "SYMBOL";
             bindings = <
-&trans  &mt EXCL N1  &mt AT N2  &mt HASH N3  &mt DLLR N4  &mt PRCNT N5                    &trans          &mt CARET N6  &mt AMPS N7  &mt ASTRK N8  &mt LPAR N9  &mt RPAR N0  &kp BSPC
-&trans  &td0         &td0       &td0         &td0         &td0                    &trans  &trans  &trans  &kp MINUS     &kp EQUAL    &kp LBKT      &kp RBKT     &kp BSLH     &kp GRAVE
-&trans  &td0         &td0       &none        &none        &td0          &trans            &trans          &kp UNDER     &kp PLUS     &kp LBRC      &kp RBRC     &kp PIPE     &kp TILDE
-                                &trans       &trans       &trans                                          &trans        &trans       &trans
+&trans  &trans                &kp GRAVE      &kp MINUS     &kp EQUAL       &kp LEFT_BRACKET                        &trans          &kp RIGHT_BRACKET      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans
+&trans  &kp SQT               &kp COMMA      &kp DOT       &kp UNDERSCORE  &kp LEFT_PARENTHESIS            &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+&trans  &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp ASTERISK  &kp SLASH       &trans                &trans            &trans          &trans                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
+                                             &trans        &trans          &trans                                                  &trans                 &kp RSHIFT    &trans
             >;
         };
 
@@ -121,12 +120,13 @@
             >;
         };
 
-        layer_4 {
+        Symbol_Layer2 {
+            display-name = "SYMBOL";
             bindings = <
-&trans  &trans                &trans         &kp MINUS     &kp EQUAL       &kp LEFT_BRACKET                        &trans          &kp RIGHT_BRACKET      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans
-&trans  &kp SQT               &kp COMMA      &kp DOT       &kp UNDERSCORE  &kp LEFT_PARENTHESIS            &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-&trans  &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp ASTERISK  &kp SLASH       &kp GRAVE             &trans            &trans          &trans                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
-                                             &trans        &trans          &trans                                                  &trans                 &kp RSHIFT    &trans
+&trans  &mt EXCL N1  &mt AT N2  &mt HASH N3  &mt DLLR N4  &mt PRCNT N5                    &trans          &mt CARET N6  &mt AMPS N7  &mt ASTRK N8  &mt LPAR N9  &mt RPAR N0  &kp BSPC
+&trans  &td0         &td0       &td0         &td0         &td0                    &trans  &trans  &trans  &kp MINUS     &kp EQUAL    &kp LBKT      &kp RBKT     &kp BSLH     &kp GRAVE
+&trans  &td0         &td0       &none        &none        &td0          &trans            &trans          &kp UNDER     &kp PLUS     &kp LBRC      &kp RBRC     &kp PIPE     &kp TILDE
+                                &trans       &trans       &trans                                          &trans        &trans       &trans
             >;
         };
     };
