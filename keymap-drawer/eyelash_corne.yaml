@@ -196,6 +196,3 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - LEFT WIN
-combos:
-- p: [1, 15, 29]
-  k: '&soft_off'
